@@ -23,10 +23,10 @@
 #define GUI_A LGUI_T(KC_A)
 #define ALT_R LALT_T(KC_R)
 #define SFT_S LSFT_T(KC_S)
-#define CTL_T LCTL_T(KC_T)
+#define CTR_T LCTL_T(KC_T)
 
 // Right-hand home row mods
-#define CTL_N RCTL_T(KC_N)
+#define CTR_N RCTL_T(KC_N)
 #define SFT_E RSFT_T(KC_E)
 #define ALT_I LALT_T(KC_I)
 #define GUI_O RGUI_T(KC_O)
@@ -50,7 +50,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT(
         KC_EQL,  KC_1,    KC_2,   KC_3,   KC_4,   KC_5,                       KC_6,   KC_7,   KC_8,   KC_9,   KC_0,   KC_PMNS,
         KC_ESC,  KC_Q,    KC_W,   KC_F,   KC_P,   KC_B,                       KC_J,   KC_L,   KC_U,   KC_Y,   KC_SCLN,KC_BSLS,
-        KC_TAB,  GUI_A,   ALT_R,  SFT_S,  CTL_T,  KC_G,                       KC_M,   CTL_N,  SFT_E,  ALT_I,  GUI_O,  KC_QUOT,
+        KC_TAB,  GUI_A,   ALT_R,  SFT_S,  CTR_T,  KC_G,                       KC_M,   CTR_N,  SFT_E,  ALT_I,  GUI_O,  KC_QUOT,
         KC_GRV,  KC_Z,    KC_X,   KC_C,   KC_D,   KC_V,   KC_MUTE,   KC_MPLY, KC_K,   KC_H,   KC_COMM,KC_DOT, KC_SLSH,TG(_NUMPAD),
                  KC_LGUI, KC_LEFT,KC_RGHT,KC_DEL, KC_BSPC,                    KC_SPC, KC_ENT, KC_UP,  KC_DOWN,MO(_SYMBOL)
     ),
@@ -102,7 +102,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //|------+-------+--------+--------+--------+------|                   |--------+-------+--------+--------+--------+---------|
     KC_GRV,   KC_1,   KC_2,    KC_3,    KC_4,    KC_5,                      KC_6,    KC_7,    KC_8,    KC_9,    KC_0,   KC_F12,
     //|------+-------+--------+--------+--------+------|                   |--------+-------+--------+--------+--------+---------|
-    _______,  KC_EXLM,KC_AT,   KC_HASH, KC_DLR,  KC_PERC,                   KC_CIRC, KC_AMPR, KC_ASTR, KC_LPNR, KC_RPNR,KC_PIPE,
+    _______,  KC_EXLM,KC_AT,   KC_HASH, KC_DLR,  KC_PERC,                   KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN,KC_PIPE,
     //|------+-------+--------+--------+--------+------|  ===  |   |  ===  |--------+-------+--------+--------+--------+---------|
     _______,  KC_EQL,  KC_PMNS,KC_PPLS, KC_LCBR, KC_RCBR,_______,   _______,KC_LBRC,KC_RBRC,  KC_SCLN, KC_COLN, KC_BSLS,KC_LSFT,
     //|------+-------+--------+--------+--------+------|  ===  |   |  ===  |--------+-------+--------+--------+--------+---------|
