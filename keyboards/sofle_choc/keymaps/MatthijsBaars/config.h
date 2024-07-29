@@ -26,7 +26,6 @@
 
 #define RGB_MATRIX_SLEEP     // turn off effects when suspended
 #define SPLIT_TRANSPORT_MIRROR             // If LED_MATRIX_KEYPRESSES or LED_MATRIX_KEYRELEASES is enabled, you also will want to enable SPLIT_TRANSPORT_MIRROR
-#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 80  // limits maximum brightness of LEDs (max 255). Higher may cause the controller to crash.
 #define TAPPING_TERM 200
 
 // Disabled to save space
@@ -35,11 +34,11 @@
 #define NO_ACTION_FUNCTION // 0
 #define DISABLE_LEADER     // 0
 
-#ifdef RGB_MATRIX_ENABLE
-#define RGBLIGHT_LED_COUNT 35    // Number of LEDs
-#define RGBLIGHT_LED_COUNT 35    // Number of LEDs
-#define RGB_MATRIX_LED_COUNT RGBLIGHT_LED_COUNT
-#endif
+// #ifdef RGB_MATRIX_ENABLE
+// ##define RGBLIGHT_LED_COUNT 35    // Number of LEDs
+// //#define RGBLIGHT_LED_COUNT 35    // Number of LEDs
+// #define RGB_MATRIX_LED_COUNT 58
+// #endif
 
 #ifdef RGB_MATRIX_ENABLE
 #   define RGB_MATRIX_KEYPRESSES // reacts to keypresses
