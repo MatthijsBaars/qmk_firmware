@@ -28,11 +28,10 @@
 #define SPLIT_TRANSPORT_MIRROR             // If LED_MATRIX_KEYPRESSES or LED_MATRIX_KEYRELEASES is enabled, you also will want to enable SPLIT_TRANSPORT_MIRROR
 #define TAPPING_TERM 200
 
-// Disabled to save space
+// // Disabled to save space
 #define NO_ACTION_ONESHOT  // 332
-#define NO_ACTION_MACRO    // 0
-#define NO_ACTION_FUNCTION // 0
-#define DISABLE_LEADER     // 0
+// #define NO_ACTION_MACRO    // 0
+// #define NO_ACTION_FUNCTION // 0
 
 // #ifdef RGB_MATRIX_ENABLE
 // ##define RGBLIGHT_LED_COUNT 35    // Number of LEDs
