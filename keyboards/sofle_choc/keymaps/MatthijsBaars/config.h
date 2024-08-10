@@ -39,6 +39,8 @@
 // #define RGB_MATRIX_LED_COUNT 58
 // #endif
 
+#define SPLIT_WPM_ENABLE
+
 #ifdef RGB_MATRIX_ENABLE
 #   define RGB_MATRIX_KEYPRESSES // reacts to keypresses
 // #   define RGB_MATRIX_KEYRELEASES // reacts to keyreleases (instead of keypresses)
